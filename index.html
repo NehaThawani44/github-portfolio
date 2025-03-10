@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+             <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#contact">Contact</a>
+          </li>
+       </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header id="home" class="jumbotron text-center">
+     <h1 class="display-4">Welcome to My Portfolio</h1>
+     <p class="lead">A showcase of my projects and work.</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+     <div class="row">
+        <div class="col-md-6">
+           <img src="images/profile.jpg" alt="Profile Picture" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+           <h2>About Me</h2>
+           <p>Insert your bio here. Provide a brief description of who you are, your skills, and what you do.</p>
+        </div>
+     </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container mt-5">
+     <h2 class="text-center">My Projects</h2>
+     <div class="row">
+       <!-- Project Card 1 -->
+       <div class="col-md-4">
+         <div class="card">
+           <img class="card-img-top" src="images/project1.jpg" alt="Project 1 Screenshot">
+           <div class="card-body">
+             <h5 class="card-title">Project Title 1</h5>
+             <p class="card-text">A brief description of project 1 with key features and technologies used.</p>
+             <a href="#" class="btn btn-primary">View Project</a>
+           </div>
+         </div>
+       </div>
+       <!-- Project Card 2 -->
+       <div class="col-md-4">
+         <div class="card">
+           <img class="card-img-top" src="images/project2.jpg" alt="Project 2 Screenshot">
+           <div class="card-body">
+             <h5 class="card-title">Project Title 2</h5>
+             <p class="card-text">A brief description of project 2 with key features and technologies used.</p>
+             <a href="#" class="btn btn-primary">View Project</a>
+           </div>
+         </div>
+       </div>
+       <!-- Project Card 3 -->
+       <div class="col-md-4">
+         <div class="card">
+           <img class="card-img-top" src="images/project3.jpg" alt="Project 3 Screenshot">
+           <div class="card-body">
+             <h5 class="card-title">Project Title 3</h5>
+             <p class="card-text">A brief description of project 3 with key features and technologies used.</p>
+             <a href="#" class="btn btn-primary">View Project</a>
+           </div>
+         </div>
+       </div>
+     </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mt-5 mb-5">
+     <h2 class="text-center">Contact Me</h2>
+     <form>
+       <div class="form-group">
+         <label for="name">Name</label>
+         <input type="text" class="form-control" id="name" placeholder="Enter your name">
+       </div>
+       <div class="form-group">
+         <label for="email">Email</label>
+         <input type="email" class="form-control" id="email" placeholder="Enter your email">
+       </div>
+       <div class="form-group">
+         <label for="message">Message</label>
+         <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+       </div>
+       <button type="submit" class="btn btn-primary">Send Message</button>
+     </form>
+  </section>
+  
+  <!-- Projects Section in index.html -->
+<section id="projects" class="container mt-5">
+    <h2 class="text-center">My Projects</h2>
+    <div class="row">
+      <!-- Existing Project Cards -->
+  
+      <!-- Example Presentation Card -->
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="images/ppt-thumbnail.jpg" alt="Presentation Thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Presentation Title</h5>
+            <p class="card-text">A brief description of the presentation.</p>
+            <a href="ppts/Neha_Portfolio.pptx" class="btn btn-primary" download>Download Presentation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
