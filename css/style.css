@@ -29,3 +29,9 @@ section {
 .card {
   margin-bottom: 30px;
 }
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 300px;  /* fixed width (or use max-width) */
+}
