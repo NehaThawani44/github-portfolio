@@ -1,0 +1,31 @@
+* Custom styles for your portfolio */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Home Section Jumbotron */
+header.jumbotron {
+  background: url('../images/banner.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Section padding */
+section {
+  padding: 60px 0;
+}
+
+/* Profile image styling */
+#about img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Spacing for cards */
+.card {
+  margin-bottom: 30px;
+}
